@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code de référence Fizz 2025 : ZXVD2 (Prime 25$)</title>
+    <meta name="description" content="Utilisez le code de référence Fizz ZXVD2 pour obtenir votre prime de 25$. Le meilleur code promo valide pour l'abonnement mobile et internet au Québec.">
+    <meta name="keywords" content="code de reference fizz, code promo fizz, prime fizz, référence fizz, ZXVD2, fizz mobile, fizz internet">
+    
+    <meta property="og:title" content="Code de référence Fizz : ZXVD2 (Prime 25$)">
+    <meta property="og:description" content="Obtenez 25$ de rabais sur votre forfait mobile ou internet Fizz avec ce code vérifié.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://Code-reference-fizz.github.io/fizz/">
+
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background: linear-gradient(135deg, #00b373 0%, #004d32 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 24px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+            max-width: 450px;
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+        /* Petite barre verte déco en haut */
+        .container::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 8px;
+            background: #00d68f;
+        }
+        h1 {
+            color: #005a3a;
+            margin-top: 10px;
+            font-size: 1.8rem;
+            font-weight: 800;
+        }
+        .subtitle {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+        .highlight {
+            color: #00b373;
+            font-weight: bold;
+        }
+        .code-wrapper {
+            background-color: #f0fdf4;
+            border: 3px dashed #00b373;
+            border-radius: 16px;
+            padding: 25px;
+            margin: 30px 0;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            position: relative;
+        }
+        .code-wrapper:hover {
+            background-color: #d1fae5;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0,179,115,0.15);
+        }
+        .code-text {
+            display: block;
+            font-size: 3rem;
+            font-weight: 900;
+            color: #005a3a;
+            letter-spacing: 2px;
+            font-family: monospace;
+        }
+        .click-hint {
+            display: block;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            color: #00b373;
+            margin-top: 10px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        .btn-main {
+            display: block;
+            background-color: #00b373;
+            color: white;
+            text-decoration: none;
+            padding: 18px;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: background 0.3s;
+            box-shadow: 0 4px 15px rgba(0,179,115,0.4);
+        }
+        .btn-main:hover {
+            background-color: #009963;
+        }
+        .footer-note {
+            margin-top: 25px;
+            font-size: 0.85rem;
+            color: #888;
+        }
+        /* Message de confirmation caché par défaut */
+        #toast {
+            visibility: hidden;
+            min-width: 250px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 50px;
+            padding: 16px;
+            position: fixed;
+            z-index: 1;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 17px;
+            opacity: 0;
+            transition: opacity 0.3s, bottom 0.3s;
+        }
+        #toast.show {
+            visibility: visible;
+            opacity: 1;
+            bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Code de référence Fizz</h1>
+        <p class="subtitle">
+            Profitez de la meilleure offre mobile au Québec. Inscrivez-vous avec ce code pour débloquer votre prime de <span class="highlight">25$</span>.
+        </p>
+        
+        <div class="code-wrapper" onclick="copyToClipboard()">
+            <span class="code-text">ZXVD2</span>
+            <span class="click-hint">Cliquez pour copier</span>
+        </div>
+        
+        <a href="https://fizz.ca" target="_blank" class="btn-main">
+            Aller sur Fizz.ca et s'inscrire
+        </a>
+        
+        <p class="footer-note">
+            Code valide pour tous les forfaits Fizz Mobile et Internet.
+        </p>
+    </div>
+
+    <div id="toast">Code ZXVD2 copié ! ✅</div>
+
+    <script>
+        function copyToClipboard() {
+            // Le code est défini ici
+            const referralCode = "ZXVD2";
+            
+            navigator.clipboard.writeText(referralCode).then(function() {
+                // Animation du message de succès
+                var x = document.getElementById("toast");
+                x.className = "show";
+                setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+            }, function(err) {
+                console.error('Erreur lors de la copie : ', err);
+            });
+        }
+    </script>
+
+</body>
+</html>
